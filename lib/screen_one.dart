@@ -220,8 +220,8 @@ class _Screen1State extends State<Screen1> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: selectedIndex,
-        selectedIconTheme: IconThemeData(color: Colors.green),
-        unselectedIconTheme: IconThemeData(color: Colors.grey),
+        selectedIconTheme: IconThemeData(color: Color(0xff363f72)),
+        unselectedIconTheme: IconThemeData(color: Color(0xff747d90)),
         onTap: _onItemTapped,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: ""),
